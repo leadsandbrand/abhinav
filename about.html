@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>About Us | Premium Real Estate Developer in Bhopal | Shaligram Developers</title>
+  <meta name="description" content="Learn about Shaligram Developers, a trusted real estate developer in Bhopal known for premium residential projects, quality construction, and modern lifestyle developments designed for long-term value." />
+  <meta name="keywords" content="Shaligram Developers, real estate developer in Bhopal, Bhopal real estate company, luxury apartments Bhopal, premium homes Bhopal, trusted builders in Bhopal, residential projects Bhopal, modern housing Bhopal" />
+  <meta name="author" content="Shaligram Developers" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.shaligramdeveloper.com/about" />
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <style>
+    .swiper-paginationone .swiper-pagination-bullet {
+      background: #F07C00;
+      opacity: 0.5;
+    }
+    .swiper-paginationone .swiper-pagination-bullet-active {
+      background: #F07C00;
+      opacity: 1;
+    }
+    @keyframes floatShape {
+      0%, 100% { transform: translateY(0) rotate(0deg); }
+      50% { transform: translateY(-25px) rotate(3deg); }
+    }
+    .animate-float-shape {
+      animation: floatShape 8s ease-in-out infinite;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+  <!-- Top Bar (Desktop) -->
+  <div class="hidden md:flex justify-between items-center text-sm bg-[#003366] text-gray-200 max-w-[95%] mx-auto p-4 rounded-b-3xl mb-4">
+    <div class="flex gap-6">
+      <p class="flex items-center gap-2"><i class="fa-solid fa-location-crosshairs text-white"></i>Plot No-77, Abhinav Shopping Complex, Bhopal</p>
+      <p class="flex items-center gap-2"><i class="fa-solid fa-phone text-white"></i>+91 9200200345</p>
+    </div>
+    <div><p class="font-medium"><i class="fa-solid fa-envelope text-white"></i> abhinavhome@yahoo.co.in</p></div>
+  </div>
+
+  <!-- WhatsApp floating button -->
+  <a href="https://wa.me/9669690018" target="_blank" class="fixed bottom-5 md:right-14 right-5 z-50 flex items-center justify-center w-14 h-14 bg-green-500 hover:bg-green-600 text-white rounded-full shadow-lg transition duration-300"><i class="fab fa-whatsapp text-2xl"></i></a>
+  
+  <!-- Header / Navigation -->
+  <header class="border max-w-[95%] mx-auto rounded-3xl mb-4 relative bg-white">
+    <div class="max-w-full mx-auto p-4">
+      <div class="flex items-center justify-between min-h-16">
+        <a href="/" class="text-xl font-bold"><img class="max-w-[70px]" src="images/logo/logo1.png" alt="Shaligram Developers Logo"></a>
+        <nav class="hidden md:flex">
+          <ul class="flex items-center gap-6 text-sm font-medium">
+            <li><a href="index.html" class="hover:text-[#003366]">Home</a></li>
+            <li><a href="about.html" class="hover:text-[#003366]">About</a></li>
+            <li class="relative group">
+
+              <a href="projects.html" class="hover:text-[#003366] transition flex items-center gap-2">
+                Project
+                <i class="fa-solid fa-angle-down text-xs"></i>
+              </a>
+  
+              <!-- Dropdown -->
+              <div class="absolute left-0 top-full pt-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+  
+                <div class="w-64 bg-white shadow-xl border-t-4 border-[#003366] rounded-sm py-2">
+  
+                  <a href="balaji-phase2.html" class="block px-6 py-3 hover:bg-gray-100 hover:text-[#003366] transition">
+                    Balaji Parisar Phase II
+                  </a>
+  
+                  <a href="aadharcity.html" class="block px-6 py-3 hover:bg-gray-100 hover:text-[#003366] transition">
+                    Abhinav AadharCity
+                  </a>
+  
+                  <a href="balaji-commercial.html" class="block px-6 py-3 hover:bg-gray-100 hover:text-[#003366] transition">
+                    Balaji Parisar Commercial
+                  </a>
+  
+                  <a href="tirupati.html" class="block px-6 py-3 hover:bg-gray-100 hover:text-[#003366] transition">
+                    Tirupati Abhinav
+                  </a>
+  
+                </div>
+  
+              </div>
+  
+            </li>
+  
+            <li><a href="blog.html" class="hover:text-[#003366]">Blogs</a></li>
+           
+            <li><a href="gallery.html" class="hover:text-[#003366]">Gallery</a></li>
+            <li><a href="connect-us.html" class="hover:text-[#003366]">Carrier with Us</a></li>
+            <li><a href="contact.html" class="hover:text-[#003366]">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="hidden md:block">
+          <a href="tel:+919669690032" class="group flex items-center gap-3 border rounded-3xl p-2 pr-4 transition-all duration-300 hover:border-black">
+            <span class="bg-black w-[30px] h-[30px] flex items-center justify-center text-white rounded-full transition-transform duration-300 group-hover:translate-x-2"><i class="fa-solid fa-arrow-right"></i></span>
+            <span class="font-medium">Get In Touch</span>
+          </a>
+        </div>
+        <button id="menuBtn" class="md:hidden text-2xl"><i id="menuIcon" class="fa-solid fa-bars"></i></button>
+      </div>
+    </div>
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="fixed top-0 right-0 h-full w-full bg-white/80 backdrop-blur-xl p-8 shadow-2xl transform translate-x-full transition-all duration-500 z-50">
+      <div class="flex items-center justify-between mb-10"><a href="index.html"><img class="max-w-[70px]" src="https://www.shaligramdeveloper.com/./assetsfrontend/logo/footer-logo.png" alt=""></a><button id="closeMenu" class="text-2xl"><i class="fa-solid fa-xmark"></i></button></div>
+      <ul class="flex flex-col gap-8 text-lg font-semibold">
+        <li class="group"><a href="/" class="flex items-center gap-4 transition hover:text-yellow-500"><i class="fa-solid fa-house text-xl"></i><span class="relative">Home<span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-yellow-500 transition-all group-hover:w-full"></span></span></a></li>
+        <li class="group"><a href="https://www.shaligramdeveloper.com/about" class="flex items-center gap-4 hover:text-yellow-500"><i class="fa-solid fa-user text-xl"></i><span class="relative">About<span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-yellow-500 transition-all group-hover:w-full"></span></span></a></li>
+        <li class="group"><a href="https://www.shaligramdeveloper.com/projects" class="flex items-center gap-4 hover:text-yellow-500"><i class="fa-solid fa-diagram-project text-xl"></i><span class="relative">Projects<span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-yellow-500 transition-all group-hover:w-full"></span></span></a></li>
+        <li class="group"><a href="https://www.shaligramdeveloper.com/blogs" class="flex items-center gap-4 hover:text-yellow-500"><i class="fa-solid fa-blog text-xl"></i><span class="relative">Blogs<span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-yellow-500 transition-all group-hover:w-full"></span></span></a></li>
+        <li class="group"><a href="https://www.shaligramdeveloper.com/contact" class="flex items-center gap-4 hover:text-yellow-500"><i class="fa-solid fa-envelope text-xl"></i><span class="relative">Contact<span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-yellow-500 transition-all group-hover:w-full"></span></span></a></li>
+      </ul>
+      <div class="absolute bottom-10 left-8 right-8"><a href="tel:info@shaligramdeveloper.com" class="flex items-center justify-center gap-3 bg-black text-white py-3 rounded-full hover:bg-yellow-500 transition"><i class="fa-solid fa-paper-plane"></i>Get In Touch</a></div>
+    </div>
+    <div id="overlay" class="fixed inset-0 bg-black bg-opacity-40 hidden z-40"></div>
+  </header>
+
+  <main>
+    <!-- Hero Breadcrumb Section -->
+    <section class="relative h-[55vh] w-full">
+      <img src="https://www.shaligramdeveloper.com/assetsfrontend/images/breadcrum.png" alt="About Us" class="absolute inset-0 w-full h-full object-cover" />
+      <div class="absolute inset-0 bg-black/55"></div>
+      <div class="relative z-10 h-full flex items-center justify-center text-center">
+        <div>
+          <h1 class="text-4xl md:text-5xl font-bold text-white mb-3 animate-text">About Us</h1>
+          <div class="flex items-center justify-center gap-2 text-sm text-gray-300">
+            <a href="index.html" class="hover:text-[#F07C00] transition">Home</a>
+            <span class="text-gray-400">›</span>
+            <span class="text-[#F07C00] font-medium">About Us</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Who We Are Section -->
+    <section class="py-20 relative overflow-hidden">
+      <img class="absolute left-0 -bottom-12 w-[500px] brightness-0 animate-float-shape opacity-20" src="https://www.shaligramdeveloper.com/assetsfrontend/images/shp1.png" alt="" />
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="grid md:grid-cols-2 grid-cols-1 md:gap-12 gap-8 items-center">
+          <div class="text-slate-500 text-sm leading-relaxed space-y-4" data-aos="fade-right">
+            <div class="mb-8">
+              <span class="uppercase text-xs tracking-widest text-gray-500 flex items-center gap-2 mb-3">✦ About Us</span>
+              <h2 class="text-4xl font-bold text-[#003366] leading-tight mb-6 animate-text">Abhinav Homes Leading property developers & Real Estate Builders</h2>
+            </div>
+            <article class="space-y-4">
+              <p>Hello, We're Abhinav Homes, and we've been developing independent homes, plots, and commercial properties for the past 3 decades. With a passion for quality construction and a deep understanding of the local real estate market, we have built a reputation as a trusted and reliable builder in the industry.</p>
+              <p>Over the years, we've worked on a wide range of projects, from custom homes and residential townships to commercial properties and mixed-use developments. We are proud of ourselves for delivering projects that exceed our client's expectations while staying on time, within budget and excellent construction quality.</p>
+            
+            </article>
+          </div>
+          <div class="w-full rounded-md overflow-hidden shadow-xl" data-aos="zoom-in" data-aos-delay="150">
+            <img class="w-[500px] h-[500px] object-cover rounded-lg" src="images/banners/11-Dix7itq0 - Copy.jpg" alt="About Shaligram Developers" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+<section class="bg-[#eef2f3] py-20">
+
+  <div class="max-w-7xl mx-auto px-4">
+
+      <!-- Heading -->
+      <div class="text-center mb-14">
+          <h2 class="text-4xl md:text-5xl font-semibold text-[#003366]">
+              Our Core Services
+          </h2>
+      </div>
+
+      <!-- Services Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8  ">
+
+          <!-- Card 1 -->
+          <div class="bg-white p-10 text-center shadow-sm hover:shadow-xl transition-all duration-500 group relative overflow-hidden">
+
+              <span class="absolute bottom-0 left-0 h-[3px] w-0 bg-[#003366] transition-all duration-500 group-hover:w-full"></span>
+
+              <img src="images/png/image (1).png" class="w-16 h-16 mx-auto mb-6 object-contain">
+
+              <h3 class="text-3xl font-semibold text-[#003366] mb-4">
+                  Property Management
+              </h3>
+
+              <p class="text-gray-600 leading-7">
+                  Over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.
+              </p>
+
+          </div>
+
+          <!-- Card 2 -->
+          <div class="bg-white p-10 text-center shadow-sm hover:shadow-xl transition-all duration-500 group relative overflow-hidden">
+
+              <span class="absolute bottom-0 left-0 h-[3px] w-0 bg-[#003366] transition-all duration-500 group-hover:w-full"></span>
+
+              <img src="images/png/image (2).png" class="w-16 h-16 mx-auto mb-6 object-contain">
+
+              <h3 class="text-3xl font-semibold text-[#003366] mb-4">
+                  Mortgage Service
+              </h3>
+
+              <p class="text-gray-600 leading-7">
+                  Over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.
+              </p>
+
+          </div>
+
+          <!-- Card 3 -->
+          <div class="bg-white p-10 text-center shadow-sm hover:shadow-xl transition-all duration-500 group relative overflow-hidden">
+
+              <span class="absolute bottom-0 left-0 h-[3px] w-0 bg-[#003366] transition-all duration-500 group-hover:w-full"></span>
+
+              <img src="images/png/image (3).png" class="w-16 h-16 mx-auto mb-6 object-contain">
+
+              <h3 class="text-3xl font-semibold text-[#003366] mb-4">
+                  Consulting Service
+              </h3>
+
+              <p class="text-gray-600 leading-7">
+                  Over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.
+              </p>
+
+          </div>
+
+          <!-- Card 4 -->
+          <div class="bg-white p-10 text-center shadow-sm hover:shadow-xl transition-all duration-500 group relative overflow-hidden">
+
+              <span class="absolute bottom-0 left-0 h-[3px] w-0 bg-[#003366] transition-all duration-500 group-hover:w-full"></span>
+
+              <img src="images/png/image (4).png" class="w-16 h-16 mx-auto mb-6 object-contain">
+
+              <h3 class="text-3xl font-semibold text-[#003366] mb-4">
+                  Home Buying
+              </h3>
+
+              <p class="text-gray-600 leading-7">
+                  Over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.
+              </p>
+
+          </div>
+
+          <!-- Card 5 -->
+          <div class="bg-white p-10 text-center shadow-sm hover:shadow-xl transition-all duration-500 group relative overflow-hidden">
+
+              <span class="absolute bottom-0 left-0 h-[3px] w-0 bg-[#003366] transition-all duration-500 group-hover:w-full"></span>
+
+              <img src="images/png/image (5).png" class="w-16 h-16 mx-auto mb-6 object-contain">
+
+              <h3 class="text-3xl font-semibold text-[#003366] mb-4">
+                  Home Selling
+              </h3>
+
+              <p class="text-gray-600 leading-7">
+                  Over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.
+              </p>
+
+          </div>
+
+          <!-- Card 6 -->
+          <div class="bg-white p-10 text-center shadow-sm hover:shadow-xl transition-all duration-500 group relative overflow-hidden">
+
+              <span class="absolute bottom-0 left-0 h-[3px] w-0 bg-[#003366] transition-all duration-500 group-hover:w-full"></span>
+
+              <img src="images/png/image.png" class="w-16 h-16 mx-auto mb-6 object-contain">
+
+              <h3 class="text-3xl font-semibold text-[#003366] mb-4">
+                  Escrow Services
+              </h3>
+
+              <p class="text-gray-600 leading-7">
+                  Over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.
+              </p>
+
+          </div>
+
+      </div>
+
+  </div>
+
+</section>
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+    <!-- Vision, Mission & Awards Section -->
+    <section class="w-full py-20 bg-[#F5F5F5]">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="text-center mb-14">
+          <span class="uppercase text-xs tracking-widest text-gray-500 flex items-center justify-center gap-2 mb-3">✦ The Foundation of Our Excellence</span>
+          <h2 class="text-4xl font-bold text-[#003366] leading-tight mb-6 animate-text">Our Vision, Mission &amp; Key Achievements</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Vision -->
+          <div class="group relative p-8 bg-white rounded-xl border border-gray-100 hover:shadow-xl transition-all duration-300 overflow-hidden" data-aos="fade-up" data-aos-delay="0">
+            <span class="absolute bottom-0 left-0 h-[3px] w-0 bg-[#003366] transition-all duration-500 ease-out group-hover:w-full"></span>
+            <div class="w-14 h-14 rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform bg-orange-50 group-hover:bg-[#003366]">
+              <img src="https://www.shaligramdeveloper.com/assetsadmin/uploads/missionvision/1773904726_card.svg" alt="Vision" class="w-8 h-8 object-contain filter brightness-0 saturate-100 group-hover:invert transition duration-300" />
+            </div>
+            <h3 class="mt-4 text-2xl font-semibold text-[#003366]">Vision</h3>
+            <p class="mt-3 text-gray-600 leading-relaxed">Our vision is to be India's Most Reputed Real Estate Group. We are offering owners with dream home and required amenities. To ensure customer investment is valued and not treated as unworthy. We are building residences that are spacious, secure and surrounded by nature. The company seeks to bring about a revolution in Real Estate. Developing ideal investment opportunities and innovative real estate solutions to meet clients’ expectations both locally and globally. </p>
+          </div>
+
+          <!-- Mission -->
+          <div class="group relative p-8 bg-white rounded-xl border border-gray-100 hover:shadow-xl transition-all duration-300 overflow-hidden" data-aos="fade-up" data-aos-delay="150">
+            <span class="absolute bottom-0 left-0 h-[3px] w-0 bg-[#003366] transition-all duration-500 ease-out group-hover:w-full"></span>
+            <div class="w-14 h-14 rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform bg-orange-50 group-hover:bg-[#003366]">
+              <img src="https://www.shaligramdeveloper.com/assetsadmin/uploads/missionvision/1773905012_card.svg" alt="Mission" class="w-8 h-8 object-contain filter brightness-0 saturate-100 group-hover:invert transition duration-300" />
+            </div>
+            <h3 class="mt-4 text-2xl font-semibold text-[#003366]">Values</h3>
+            <p class="mt-3 text-gray-600 leading-relaxed">We aim to create spaces that enable you to focus on the things you consider important – whether it is building a business, growing a family, connecting with friends, or simply finding the time and space to pursue your dreams. We believe in delivering value to all our customers by creating products and services that enhance the value of life. We are in business to create and deliver real value for clients and our own people in a complex world that is constantly changing.</p>
+          </div>
+
+          <!-- Awards -->
+          <div class="group relative p-8 bg-white rounded-xl border border-gray-100 hover:shadow-xl transition-all duration-300 overflow-hidden" data-aos="fade-up" data-aos-delay="300">
+            <span class="absolute bottom-0 left-0 h-[3px] w-0 bg-[#003366] transition-all duration-500 ease-out group-hover:w-full"></span>
+            <div class="w-14 h-14 rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform bg-orange-50 group-hover:bg-[#003366]">
+              <img src="https://www.shaligramdeveloper.com/assetsadmin/uploads/missionvision/1773905294_card.svg" alt="Awards" class="w-8 h-8 object-contain filter brightness-0 saturate-100 group-hover:invert transition duration-300" />
+            </div>
+          <h3 class="mt-4 text-2xl font-semibold text-[#003366]">Missing statement</h3>
+            <p class="mt-3 text-gray-600 leading-relaxed">Our Mission is to offer an unshakable commitment to our Duplex for giving quality homes to everyone. For all customers and stakeholders to quality, integrity and value Building international standard for Real-Estate is our long-term mission. Our customers are delighted our customers with best value pricing, innovative concepts, quality construction, and on-time delivery. We are offering homes that meet the need of all demographics and empower the lives of our staff as well as associate. </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-[#0b1026] text-white mt-20">
+
+    <!-- Top CTA Box -->
+    <div class="max-w-6xl mx-auto px-6 relative -top-10">
+        <div class="bg-[#003366] rounded-sm px-8 py-10 flex flex-col md:flex-row justify-between items-center gap-8">
+  
+            <!-- Left Text -->
+            <div>
+                <h2 class="text-3xl md:text-4xl font-semibold mb-3">
+                    Get in touch for more details.
+                </h2>
+                <p class="text-lg text-gray-200">
+                    We can help you realize your dream of a new home
+                </p>
+            </div>
+  
+            <!-- Social Icons -->
+            <div class="flex gap-6 text-2xl">
+                <a href="#" class="hover:text-blue-300 transition"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="hover:text-pink-300 transition"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="hover:text-blue-200 transition"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="hover:text-blue-400 transition"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="hover:text-red-400 transition"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="hover:text-green-400 transition"><i class="fab fa-whatsapp"></i></a>
+            </div>
+  
+        </div>
+    </div>
+  
+    <!-- Main Footer -->
+    <div class="max-w-6xl mx-auto px-6 pb-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+  
+        <!-- About -->
+        <div>
+            <img src="images/logo/logo1.png" alt="Abhinav Homes" class="h-16 mb-6">
+  
+            <p class="text-gray-300 leading-8 text-[17px]">
+                We are leading property developers & real estate Builders in Bhopal offering commercial &
+                residential properties. Your home is the one place that takes all your stress away and fills
+                you with a wonderful sense of belonging.
+            </p>
+        </div>
+  
+        <!-- Company -->
+        <div>
+            <h3 class="text-3xl font-semibold mb-6">Company</h3>
+  
+            <ul class="space-y-4 text-gray-300 text-lg">
+                <li><a href="#" class="hover:text-white">About Us</a></li>
+                <li><a href="#" class="hover:text-white">Vision & Mission</a></li>
+                <li><a href="#" class="hover:text-white">All Projects</a></li>
+                <li><a href="#" class="hover:text-white">News & Blogs</a></li>
+                <li><a href="#" class="hover:text-white">Contact us</a></li>
+            </ul>
+        </div>
+  
+        <!-- Projects -->
+        <div>
+            <h3 class="text-3xl font-semibold mb-6">Projects</h3>
+  
+            <ul class="space-y-4 text-gray-300 text-lg">
+                <li><a href="#" class="hover:text-white">Balaji Parisar II</a></li>
+                <li><a href="#" class="hover:text-white">Abhinav AadharCity</a></li>
+                <li><a href="#" class="hover:text-white">Balaji Parisar</a></li>
+                <li><a href="#" class="hover:text-white">Tirupati Abhinav</a></li>
+            </ul>
+        </div>
+  
+        <!-- Contact -->
+        <div>
+            <h3 class="text-3xl font-semibold mb-6">Contact Info</h3>
+  
+            <div class="space-y-6 text-gray-300 text-lg leading-8">
+  
+                <p>
+                    <i class="fas fa-map-marker-alt mr-3 text-white"></i>
+                    Plot No-77, Abhinav Shopping Complex, Near Queen Marry School, Bhopal, Madhya Pradesh 462022
+                </p>
+  
+                <p>
+                    <i class="fas fa-phone-alt mr-3 text-white"></i>
+                    +91 9303132113 , 9302156825
+                </p>
+  
+                <p>
+                    <i class="fas fa-envelope mr-3 text-white"></i>
+                    example@example.com
+                </p>
+  
+            </div>
+        </div>
+  
+    </div>
+  
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/SplitText.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    // Initialize AOS
+    AOS.init({ duration: 800, once: true });
+
+    // Mobile Menu Functionality
+    const menuBtn = document.getElementById("menuBtn");
+    const mobileMenu = document.getElementById("mobileMenu");
+    const overlay = document.getElementById("overlay");
+    const closeMenu = document.getElementById("closeMenu");
+    const menuIcon = document.getElementById("menuIcon");
+
+    function openMenu() {
+      mobileMenu.classList.remove("translate-x-full");
+      overlay.classList.remove("hidden");
+      menuIcon.classList.replace("fa-bars", "fa-xmark");
+    }
+
+    function closeMenuFunc() {
+      mobileMenu.classList.add("translate-x-full");
+      overlay.classList.add("hidden");
+      menuIcon.classList.replace("fa-xmark", "fa-bars");
+    }
+
+    menuBtn?.addEventListener("click", openMenu);
+    closeMenu?.addEventListener("click", closeMenuFunc);
+    overlay?.addEventListener("click", closeMenuFunc);
+
+    // GSAP Text Animation
+    window.addEventListener("load", () => {
+      gsap.registerPlugin(ScrollTrigger, SplitText);
+      gsap.utils.toArray(".animate-text").forEach((el) => {
+        let split = new SplitText(el, { type: "chars" });
+        gsap.from(split.chars, {
+          scrollTrigger: { trigger: el, start: "top 80%" },
+          opacity: 0,
+          x: 30,
+          stagger: 0.02,
+          duration: 0.8,
+          ease: "power2.out",
+        });
+      });
+      ScrollTrigger.refresh();
+    });
+  </script>
+</body>
+</html>

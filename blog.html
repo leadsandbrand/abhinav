@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Shaligram Developers Real Estate Blog | Property Updates &amp; Lifestyle Living</title>
+  <meta name="description" content="Read the official Shaligram Developers blog for real estate trends, property buying tips, luxury living ideas, and updates on premium residential projects in Bhopal." />
+  <meta name="keywords" content="premium residential projects Bhopal, villas and penthouses in Bhopal, luxury apartments in Bhopal, property investment tips in Bhopal, best real estate developers in Bhopal, Shaligram Developers Bhopal" />
+  <meta name="author" content="Shaligram Developers" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.shaligramdeveloper.com/blogs" />
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <style>
+    .swiper-paginationone .swiper-pagination-bullet {
+      background: #F07C00;
+      opacity: 0.5;
+    }
+    .swiper-paginationone .swiper-pagination-bullet-active {
+      background: #F07C00;
+      opacity: 1;
+    }
+    @keyframes floatShape {
+      0%, 100% { transform: translateY(0) rotate(0deg); }
+      50% { transform: translateY(-25px) rotate(3deg); }
+    }
+    .animate-float-shape {
+      animation: floatShape 8s ease-in-out infinite;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+  <!-- Top Bar (Desktop) -->
+  <div class="hidden md:flex justify-between items-center text-sm bg-[#003366] text-gray-200 max-w-[95%] mx-auto p-4 rounded-b-3xl mb-4">
+    <div class="flex gap-6">
+      <p class="flex items-center gap-2"><i class="fa-solid fa-location-crosshairs text-white"></i>Plot No-77, Abhinav Shopping Complex, Bhopal</p>
+      <p class="flex items-center gap-2"><i class="fa-solid fa-phone text-white"></i>+91 9200200345
+      </p>
+    </div>
+    <div><p class="font-medium"><i class="fa-solid fa-envelope text-white"></i> abhinavhome@yahoo.co.in</p></div>
+  </div>>
+
+  <!-- WhatsApp floating button -->
+  <a href="https://wa.me/9669690018" target="_blank" class="fixed bottom-5 md:right-14 right-5 z-50 flex items-center justify-center w-14 h-14 bg-green-500 hover:bg-green-600 text-white rounded-full shadow-lg transition duration-300"><i class="fab fa-whatsapp text-2xl"></i></a>
+  
+  <!-- Header / Navigation -->
+  <header class="border max-w-[95%] mx-auto rounded-3xl mb-4 relative bg-white">
+    <div class="max-w-full mx-auto p-4">
+      <div class="flex items-center justify-between min-h-16">
+        <a href="/" class="text-xl font-bold"><img class="max-w-[70px]" src="images/logo/logo1.png" alt="Shaligram Developers Logo"></a>
+        <nav class="hidden md:flex">
+          <ul class="flex items-center gap-6 text-sm font-medium">
+            <li><a href="index.html" class="hover:text-[#003366]">Home</a></li>
+            <li><a href="about.html" class="hover:text-[#003366]">About</a></li>
+            <li><a href="projects.html" class="hover:text-[#003366]">Projects</a></li>
+            <li class="relative group">
+
+              <a href="projects.html" class="hover:text-[#003366] transition flex items-center gap-2">
+                Project
+                <i class="fa-solid fa-angle-down text-xs"></i>
+              </a>
+  
+              <!-- Dropdown -->
+              <div class="absolute left-0 top-full pt-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+  
+                <div class="w-64 bg-white shadow-xl border-t-4 border-[#003366] rounded-sm py-2">
+  
+                  <a href="balaji-phase2.html" class="block px-6 py-3 hover:bg-gray-100 hover:text-[#003366] transition">
+                    Balaji Parisar Phase II
+                  </a>
+  
+                  <a href="aadharcity.html" class="block px-6 py-3 hover:bg-gray-100 hover:text-[#003366] transition">
+                    Abhinav AadharCity
+                  </a>
+  
+                  <a href="balaji-commercial.html" class="block px-6 py-3 hover:bg-gray-100 hover:text-[#003366] transition">
+                    Balaji Parisar Commercial
+                  </a>
+  
+                  <a href="tirupati.html" class="block px-6 py-3 hover:bg-gray-100 hover:text-[#003366] transition">
+                    Tirupati Abhinav
+                  </a>
+  
+                </div>
+  
+              </div>
+  
+            </li>
+  
+           
+            <li><a href="gallery.html" class="hover:text-[#003366]">Gallery</a></li>
+            <li><a href="connect-us.html" class="hover:text-[#003366]">Carrier with Us</a></li>
+            <li><a href="contact.html" class="hover:text-[#003366]">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="hidden md:block">
+          <a href="tel:+919669690032" class="group flex items-center gap-3 border rounded-3xl p-2 pr-4 transition-all duration-300 hover:border-black">
+            <span class="bg-black w-[30px] h-[30px] flex items-center justify-center text-white rounded-full transition-transform duration-300 group-hover:translate-x-2"><i class="fa-solid fa-arrow-right"></i></span>
+            <span class="font-medium">Get In Touch</span>
+          </a>
+        </div>
+        <button id="menuBtn" class="md:hidden text-2xl"><i id="menuIcon" class="fa-solid fa-bars"></i></button>
+      </div>
+    </div>
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="fixed top-0 right-0 h-full w-full bg-white/80 backdrop-blur-xl p-8 shadow-2xl transform translate-x-full transition-all duration-500 z-50">
+      <div class="flex items-center justify-between mb-10"><a href="index.html"><img class="max-w-[70px]" src="https://www.shaligramdeveloper.com/./assetsfrontend/logo/footer-logo.png" alt=""></a><button id="closeMenu" class="text-2xl"><i class="fa-solid fa-xmark"></i></button></div>
+      <ul class="flex flex-col gap-8 text-lg font-semibold">
+        <li class="group"><a href="/" class="flex items-center gap-4 transition hover:text-yellow-500"><i class="fa-solid fa-house text-xl"></i><span class="relative">Home<span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-yellow-500 transition-all group-hover:w-full"></span></span></a></li>
+        <li class="group"><a href="https://www.shaligramdeveloper.com/about" class="flex items-center gap-4 hover:text-yellow-500"><i class="fa-solid fa-user text-xl"></i><span class="relative">About<span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-yellow-500 transition-all group-hover:w-full"></span></span></a></li>
+        <li class="group"><a href="https://www.shaligramdeveloper.com/projects" class="flex items-center gap-4 hover:text-yellow-500"><i class="fa-solid fa-diagram-project text-xl"></i><span class="relative">Projects<span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-yellow-500 transition-all group-hover:w-full"></span></span></a></li>
+        <li class="group"><a href="https://www.shaligramdeveloper.com/blogs" class="flex items-center gap-4 hover:text-yellow-500"><i class="fa-solid fa-blog text-xl"></i><span class="relative">Blogs<span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-yellow-500 transition-all group-hover:w-full"></span></span></a></li>
+        <li class="group"><a href="https://www.shaligramdeveloper.com/contact" class="flex items-center gap-4 hover:text-yellow-500"><i class="fa-solid fa-envelope text-xl"></i><span class="relative">Contact<span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-yellow-500 transition-all group-hover:w-full"></span></span></a></li>
+      </ul>
+      <div class="absolute bottom-10 left-8 right-8"><a href="tel:info@shaligramdeveloper.com" class="flex items-center justify-center gap-3 bg-black text-white py-3 rounded-full hover:bg-yellow-500 transition"><i class="fa-solid fa-paper-plane"></i>Get In Touch</a></div>
+    </div>
+    <div id="overlay" class="fixed inset-0 bg-black bg-opacity-40 hidden z-40"></div>
+  </header>
+
+  <main>
+    <!-- Hero Breadcrumb Section -->
+    <section class="relative h-[55vh] w-full">
+      <img src="https://www.shaligramdeveloper.com/assetsfrontend/images/breadcrum.png" alt="Blogs" class="absolute inset-0 w-full h-full object-cover" />
+      <div class="absolute inset-0 bg-black/55"></div>
+      <div class="relative z-10 h-full flex items-center justify-center text-center">
+        <div>
+          <h1 class="text-4xl md:text-5xl font-bold text-white mb-3 animate-text">Our Blog</h1>
+          <div class="flex items-center justify-center gap-2 text-sm text-gray-300">
+            <a href="/" class="hover:text-[#F07C00] transition">Home</a>
+            <span class="text-gray-400">›</span>
+            <span class="text-[#F07C00] font-medium">Blogs</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Posts Grid -->
+    <section class="max-w-7xl mx-auto py-20 px-4">
+      <!-- Section Header -->
+      <div class="text-center mb-16" data-aos="fade-up">
+        <span class="uppercase text-xs tracking-widest text-[#F07C00] flex items-center justify-center gap-2 mb-3">✦ Latest Articles</span>
+        <h2 class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight animate-text">Insights &amp; Updates</h2>
+        <p class="text-gray-600 mt-4 max-w-2xl mx-auto">Stay informed with the latest trends, tips, and news from the world of real estate and luxury living</p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- Blog Post 1 -->
+        <div class="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500" data-aos="fade-up" data-aos-delay="0">
+          <div class="relative overflow-hidden h-64">
+            <img src="https://www.shaligramdeveloper.com/assetsadmin/uploads/blog/1773401718.jpeg"
+              alt="Experience Ultra-Luxury Living with Spacious 7 BHK Apartments in Bhopal"
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+        
+            <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+        
+            <div class="absolute bottom-5 right-5 opacity-0 translate-y-3 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
+              <a href="https://www.shaligramdeveloper.com/blog/experience-ultra-luxury-living-with-spacious-7-bhk-apartments-in-bhopal"
+                class="w-12 h-12 rounded-full bg-[#003366] text-white flex items-center justify-center text-lg hover:bg-[#003366] transition-all duration-300">
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        
+          <div class="p-6">
+            <div class="flex items-center gap-4 text-sm text-gray-500 mb-3">
+              <span><i class="fa-regular fa-user mr-2"></i>Shaligram Developers</span>
+              <span><i class="fa-regular fa-calendar mr-2"></i>13 Mar, 2026</span>
+            </div>
+        
+            <h3 class="text-xl font-bold text-gray-900 mb-3 leading-snug">
+              <a href="https://www.shaligramdeveloper.com/blog/experience-ultra-luxury-living-with-spacious-7-bhk-apartments-in-bhopal"
+                class="hover:text-[#003366] transition line-clamp-2">
+                Experience Ultra-Luxury Living with Spacious 7 BHK Apartments in Bhopal
+              </a>
+            </h3>
+        
+            <p class="text-gray-600 line-clamp-3">
+              Discover the pinnacle of luxury living with spacious 7 BHK apartments designed for those who appreciate elegance, space, and premium amenities in the heart of Bhopal.
+            </p>
+        
+            <div class="mt-4 pt-4 border-t border-gray-100">
+              <a href="https://www.shaligramdeveloper.com/blog/experience-ultra-luxury-living-with-spacious-7-bhk-apartments-in-bhopal"
+                class="text-[#003366] font-medium inline-flex items-center gap-2 hover:gap-3 transition-all">
+                Read More <i class="fa-solid fa-arrow-right text-sm"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Blog Post 2 -->
+        <div class="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500" data-aos="fade-up" data-aos-delay="100">
+          <div class="relative overflow-hidden h-64">
+            <img src="https://www.shaligramdeveloper.com/assetsadmin/uploads/blog/1773399384.jpeg"
+              alt="Rudraksh Kingston Phase-2 Launched in Bhopal"
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+        
+            <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+        
+            <div class="absolute bottom-5 right-5 opacity-0 translate-y-3 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
+              <a href="https://www.shaligramdeveloper.com/blog/rudraksh-kingston-phase-2-launched-in-bhopal"
+                class="w-12 h-12 rounded-full bg-[#003366] text-white flex items-center justify-center text-lg hover:bg-[#003366] transition-all duration-300">
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        
+          <div class="p-6">
+            <div class="flex items-center gap-4 text-sm text-gray-500 mb-3">
+              <span><i class="fa-regular fa-user mr-2"></i>Shaligram Developers</span>
+              <span><i class="fa-regular fa-calendar mr-2"></i>13 Mar, 2026</span>
+            </div>
+        
+            <h3 class="text-xl font-bold text-gray-900 mb-3 leading-snug">
+              <a href="https://www.shaligramdeveloper.com/blog/rudraksh-kingston-phase-2-launched-in-bhopal"
+                class="hover:text-[#003366] transition line-clamp-2">
+                Rudraksh Kingston Phase-2 Launched in Bhopal
+              </a>
+            </h3>
+        
+            <p class="text-gray-600 line-clamp-3">
+              Exciting news! Rudraksh Kingston Phase-2 has been launched, offering even more luxurious residences with enhanced amenities and prime location advantages in Bhopal.
+            </p>
+        
+            <div class="mt-4 pt-4 border-t border-gray-100">
+              <a href="https://www.shaligramdeveloper.com/blog/rudraksh-kingston-phase-2-launched-in-bhopal"
+                class="text-[#003366] font-medium inline-flex items-center gap-2 hover:gap-3 transition-all">
+                Read More <i class="fa-solid fa-arrow-right text-sm"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Blog Post 3 -->
+        <div class="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500" data-aos="fade-up" data-aos-delay="200">
+          <div class="relative overflow-hidden h-64">
+            <img src="https://www.shaligramdeveloper.com/assetsadmin/uploads/blog/1773398323.jpg"
+              alt="Is 2025 A Smart Year To Buy Property In Bhopal ?"
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+        
+            <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+        
+            <div class="absolute bottom-5 right-5 opacity-0 translate-y-3 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
+              <a href="https://www.shaligramdeveloper.com/blog/is-2025-a-smart-year-to-buy-property-in-bhopal"
+                class="w-12 h-12 rounded-full bg-[#003366] text-white flex items-center justify-center text-lg hover:bg-[#003366] transition-all duration-300">
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        
+          <div class="p-6">
+            <div class="flex items-center gap-4 text-sm text-gray-500 mb-3">
+              <span><i class="fa-regular fa-user mr-2"></i>Shaligram Developers</span>
+              <span><i class="fa-regular fa-calendar mr-2"></i>13 Mar, 2026</span>
+            </div>
+        
+            <h3 class="text-xl font-bold text-gray-900 mb-3 leading-snug">
+              <a href="https://www.shaligramdeveloper.com/blog/is-2025-a-smart-year-to-buy-property-in-bhopal"
+                class="hover:text-[#003366] transition line-clamp-2">
+                Is 2025 A Smart Year To Buy Property In Bhopal?
+              </a>
+            </h3>
+        
+            <p class="text-gray-600 line-clamp-3">
+              Expert analysis on why 2025 could be the perfect time to invest in Bhopal's real estate market, with insights on market trends, price predictions, and growth potential.
+            </p>
+        
+            <div class="mt-4 pt-4 border-t border-gray-100">
+              <a href="https://www.shaligramdeveloper.com/blog/is-2025-a-smart-year-to-buy-property-in-bhopal"
+                class="text-[#003366] font-medium inline-flex items-center gap-2 hover:gap-3 transition-all">
+                Read More <i class="fa-solid fa-arrow-right text-sm"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Blog Post 4 -->
+        <div class="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500" data-aos="fade-up" data-aos-delay="300">
+          <div class="relative overflow-hidden h-64">
+            <img src="https://www.shaligramdeveloper.com/assetsadmin/uploads/blog/1773397540.jpg"
+              alt="Why NRI Real Estate Investment Bhopal ?"
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+        
+            <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+        
+            <div class="absolute bottom-5 right-5 opacity-0 translate-y-3 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
+              <a href="https://www.shaligramdeveloper.com/blog/why-nri-real-estate-investment-bhopal"
+                class="w-12 h-12 rounded-full bg-[#003366] text-white flex items-center justify-center text-lg hover:bg-[#003366] transition-all duration-300">
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        
+          <div class="p-6">
+            <div class="flex items-center gap-4 text-sm text-gray-500 mb-3">
+              <span><i class="fa-regular fa-user mr-2"></i>Shaligram Developers</span>
+              <span><i class="fa-regular fa-calendar mr-2"></i>13 Mar, 2026</span>
+            </div>
+        
+            <h3 class="text-xl font-bold text-gray-900 mb-3 leading-snug">
+              <a href="https://www.shaligramdeveloper.com/blog/why-nri-real-estate-investment-bhopal"
+                class="hover:text-[#003366] transition line-clamp-2">
+                Why NRI Real Estate Investment Bhopal?
+              </a>
+            </h3>
+        
+            <p class="text-gray-600 line-clamp-3">
+              A comprehensive guide for NRIs looking to invest in Bhopal's booming real estate market, including legal aspects, ROI potential, and best locations.
+            </p>
+        
+            <div class="mt-4 pt-4 border-t border-gray-100">
+              <a href="https://www.shaligramdeveloper.com/blog/why-nri-real-estate-investment-bhopal"
+                class="text-[#003366] font-medium inline-flex items-center gap-2 hover:gap-3 transition-all">
+                Read More <i class="fa-solid fa-arrow-right text-sm"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Blog Post 5 -->
+        <div class="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500" data-aos="fade-up" data-aos-delay="400">
+          <div class="relative overflow-hidden h-64">
+            <img src="https://www.shaligramdeveloper.com/assetsadmin/uploads/blog/1773396919.png"
+              alt="Discover Your Dream Home 3bhk 4bhk Flats and Villa Bhopal"
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+        
+            <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+        
+            <div class="absolute bottom-5 right-5 opacity-0 translate-y-3 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
+              <a href="https://www.shaligramdeveloper.com/blog/discover-your-dream-home-3bhk-4bhk-flats-and-villa-bhopal"
+                class="w-12 h-12 rounded-full bg-[#003366] text-white flex items-center justify-center text-lg hover:bg-[#003366] transition-all duration-300">
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        
+          <div class="p-6">
+            <div class="flex items-center gap-4 text-sm text-gray-500 mb-3">
+              <span><i class="fa-regular fa-user mr-2"></i>Shaligram Developers</span>
+              <span><i class="fa-regular fa-calendar mr-2"></i>13 Mar, 2026</span>
+            </div>
+        
+            <h3 class="text-xl font-bold text-gray-900 mb-3 leading-snug">
+              <a href="https://www.shaligramdeveloper.com/blog/discover-your-dream-home-3bhk-4bhk-flats-and-villa-bhopal"
+                class="hover:text-[#003366] transition line-clamp-2">
+                Discover Your Dream Home: 3BHK, 4BHK Flats and Villa in Bhopal
+              </a>
+            </h3>
+        
+            <p class="text-gray-600 line-clamp-3">
+              Explore the finest collection of 3BHK, 4BHK apartments and luxury villas in Bhopal, designed to match your lifestyle aspirations and family needs.
+            </p>
+        
+            <div class="mt-4 pt-4 border-t border-gray-100">
+              <a href="https://www.shaligramdeveloper.com/blog/discover-your-dream-home-3bhk-4bhk-flats-and-villa-bhopal"
+                class="text-[#003366] font-medium inline-flex items-center gap-2 hover:gap-3 transition-all">
+                Read More <i class="fa-solid fa-arrow-right text-sm"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Blog Post 6 -->
+        <div class="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500" data-aos="fade-up" data-aos-delay="500">
+          <div class="relative overflow-hidden h-64">
+            <img src="https://www.shaligramdeveloper.com/assetsadmin/uploads/blog/1773395589.jpg"
+              alt="Upgrade Space Style Buy 4-5 bhk Apartments in Bhopal Prime Locations"
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+        
+            <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+        
+            <div class="absolute bottom-5 right-5 opacity-0 translate-y-3 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
+              <a href="https://www.shaligramdeveloper.com/blog/upgrade-space-style-buy-4-5-bhk-apartments-in-bhopal-prime-locations"
+                class="w-12 h-12 rounded-full bg-[#003366] text-white flex items-center justify-center text-lg hover:bg-[#003366] transition-all duration-300">
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        
+          <div class="p-6">
+            <div class="flex items-center gap-4 text-sm text-gray-500 mb-3">
+              <span><i class="fa-regular fa-user mr-2"></i>Shaligram Developers</span>
+              <span><i class="fa-regular fa-calendar mr-2"></i>13 Mar, 2026</span>
+            </div>
+        
+            <h3 class="text-xl font-bold text-gray-900 mb-3 leading-snug">
+              <a href="https://www.shaligramdeveloper.com/blog/upgrade-space-style-buy-4-5-bhk-apartments-in-bhopal-prime-locations"
+                class="hover:text-[#003366] transition line-clamp-2">
+                Upgrade Space & Style: Buy 4-5 BHK Apartments in Bhopal Prime Locations
+              </a>
+            </h3>
+        
+            <p class="text-gray-600 line-clamp-3">
+              Discover spacious 4-5 BHK apartments in Bhopal's most sought-after locations, offering the perfect blend of luxury, comfort, and convenience.
+            </p>
+        
+            <div class="mt-4 pt-4 border-t border-gray-100">
+              <a href="https://www.shaligramdeveloper.com/blog/upgrade-space-style-buy-4-5-bhk-apartments-in-bhopal-prime-locations"
+                class="text-[#003366] font-medium inline-flex items-center gap-2 hover:gap-3 transition-all">
+                Read More <i class="fa-solid fa-arrow-right text-sm"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Newsletter Section -->
+      <div class="mt-20 bg-[#003366] rounded-3xl p-12 text-center" data-aos="fade-up">
+        <h3 class="text-3xl md:text-4xl font-bold text-white mb-4">Subscribe to Our Newsletter</h3>
+        
+        <p class="text-white/90 mb-8 max-w-2xl mx-auto">
+          Stay updated with the latest real estate trends, project launches, and exclusive offers from Shaligram Developers.
+        </p>
+      
+        <form class="max-w-md mx-auto flex flex-col sm:flex-row gap-4">
+          <input 
+            type="email" 
+            placeholder="Enter your email address" 
+            class="flex-1 px-6 py-3 rounded-full focus:outline-none focus:ring-2 focus:ring-white" 
+            required
+          >
+          
+          <button 
+            type="submit" 
+            class="bg-white text-[#003366] px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-all duration-300 hover:scale-105"
+          >
+            Subscribe
+          </button>
+        </form>
+      
+        <p class="text-white/70 text-sm mt-4">No spam, unsubscribe anytime.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-[#0b1026] text-white mt-20">
+
+    <!-- Top CTA Box -->
+    <div class="max-w-6xl mx-auto px-6 relative -top-10">
+        <div class="bg-[#003366] rounded-sm px-8 py-10 flex flex-col md:flex-row justify-between items-center gap-8">
+  
+            <!-- Left Text -->
+            <div>
+                <h2 class="text-3xl md:text-4xl font-semibold mb-3">
+                    Get in touch for more details.
+                </h2>
+                <p class="text-lg text-gray-200">
+                    We can help you realize your dream of a new home
+                </p>
+            </div>
+  
+            <!-- Social Icons -->
+            <div class="flex gap-6 text-2xl">
+                <a href="#" class="hover:text-blue-300 transition"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="hover:text-pink-300 transition"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="hover:text-blue-200 transition"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="hover:text-blue-400 transition"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="hover:text-red-400 transition"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="hover:text-green-400 transition"><i class="fab fa-whatsapp"></i></a>
+            </div>
+  
+        </div>
+    </div>
+  
+    <!-- Main Footer -->
+    <div class="max-w-6xl mx-auto px-6 pb-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+  
+        <!-- About -->
+        <div>
+            <img src="images/logo/logo1.png" alt="Abhinav Homes" class="h-16 mb-6">
+  
+            <p class="text-gray-300 leading-8 text-[17px]">
+                We are leading property developers & real estate Builders in Bhopal offering commercial &
+                residential properties. Your home is the one place that takes all your stress away and fills
+                you with a wonderful sense of belonging.
+            </p>
+        </div>
+  
+        <!-- Company -->
+        <div>
+            <h3 class="text-3xl font-semibold mb-6">Company</h3>
+  
+            <ul class="space-y-4 text-gray-300 text-lg">
+                <li><a href="#" class="hover:text-white">About Us</a></li>
+                <li><a href="#" class="hover:text-white">Vision & Mission</a></li>
+                <li><a href="#" class="hover:text-white">All Projects</a></li>
+                <li><a href="#" class="hover:text-white">News & Blogs</a></li>
+                <li><a href="#" class="hover:text-white">Contact us</a></li>
+            </ul>
+        </div>
+  
+        <!-- Projects -->
+        <div>
+            <h3 class="text-3xl font-semibold mb-6">Projects</h3>
+  
+            <ul class="space-y-4 text-gray-300 text-lg">
+                <li><a href="#" class="hover:text-white">Balaji Parisar II</a></li>
+                <li><a href="#" class="hover:text-white">Abhinav AadharCity</a></li>
+                <li><a href="#" class="hover:text-white">Balaji Parisar</a></li>
+                <li><a href="#" class="hover:text-white">Tirupati Abhinav</a></li>
+            </ul>
+        </div>
+  
+        <!-- Contact -->
+        <div>
+            <h3 class="text-3xl font-semibold mb-6">Contact Info</h3>
+  
+            <div class="space-y-6 text-gray-300 text-lg leading-8">
+  
+                <p>
+                    <i class="fas fa-map-marker-alt mr-3 text-white"></i>
+                    Plot No-77, Abhinav Shopping Complex, Near Queen Marry School, Bhopal, Madhya Pradesh 462022
+                </p>
+  
+                <p>
+                    <i class="fas fa-phone-alt mr-3 text-white"></i>
+                    +91 9303132113 , 9302156825
+                </p>
+  
+                <p>
+                    <i class="fas fa-envelope mr-3 text-white"></i>
+                    example@example.com
+                </p>
+  
+            </div>
+        </div>
+  
+    </div>
+  
+  </footer> 
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/SplitText.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    // Initialize AOS
+    AOS.init({ duration: 800, once: true });
+
+    // Mobile Menu Functionality
+    const menuBtn = document.getElementById("menuBtn");
+    const mobileMenu = document.getElementById("mobileMenu");
+    const overlay = document.getElementById("overlay");
+    const closeMenu = document.getElementById("closeMenu");
+    const menuIcon = document.getElementById("menuIcon");
+
+    function openMenu() {
+      mobileMenu.classList.remove("translate-x-full");
+      overlay.classList.remove("hidden");
+      menuIcon.classList.replace("fa-bars", "fa-xmark");
+    }
+
+    function closeMenuFunc() {
+      mobileMenu.classList.add("translate-x-full");
+      overlay.classList.add("hidden");
+      menuIcon.classList.replace("fa-xmark", "fa-bars");
+    }
+
+    menuBtn?.addEventListener("click", openMenu);
+    closeMenu?.addEventListener("click", closeMenuFunc);
+    overlay?.addEventListener("click", closeMenuFunc);
+
+    // GSAP Text Animation
+    window.addEventListener("load", () => {
+      gsap.registerPlugin(ScrollTrigger, SplitText);
+      gsap.utils.toArray(".animate-text").forEach((el) => {
+        let split = new SplitText(el, { type: "chars" });
+        gsap.from(split.chars, {
+          scrollTrigger: { trigger: el, start: "top 80%" },
+          opacity: 0,
+          x: 30,
+          stagger: 0.02,
+          duration: 0.8,
+          ease: "power2.out",
+        });
+      });
+      ScrollTrigger.refresh();
+    });
+  </script>
+</body>
+</html>
