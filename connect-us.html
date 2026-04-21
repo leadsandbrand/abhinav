@@ -37,7 +37,12 @@
     .animate-float-shape {
       animation: floatShape 8s ease-in-out infinite;
     }
-
+    
+    .container-box{
+   width:85%;
+   margin-left:auto;
+   margin-right:auto;
+}
     
 
   </style>
@@ -45,7 +50,7 @@
 <body class="bg-gray-100 text-gray-900">
 
   <!-- Top Bar (Desktop) -->
-  <div class="hidden md:flex justify-between items-center text-sm bg-[#003366] text-gray-200 max-w-[95%] mx-auto p-4 rounded-b-3xl mb-4">
+  <div class="hidden md:flex justify-between items-center text-sm bg-[#003366] text-gray-200 p-4  mb-4">
     <div class="flex gap-6">
       <p class="flex items-center gap-2"><i class="fa-solid fa-location-crosshairs text-white"></i>Plot No-77, Abhinav Shopping Complex, Bhopal</p>
       <p class="flex items-center gap-2"><i class="fa-solid fa-phone text-white"></i>+91 9200200345
@@ -58,7 +63,7 @@
   <a href="https://wa.me/9669690018" target="_blank" class="fixed bottom-5 md:right-14 right-5 z-50 flex items-center justify-center w-14 h-14 bg-green-500 hover:bg-green-600 text-white rounded-full shadow-lg transition duration-300"><i class="fab fa-whatsapp text-2xl"></i></a>
   
   <!-- Header / Navigation -->
-  <header class="border max-w-[95%] mx-auto rounded-3xl mb-4 relative bg-[#F3F4F6]">
+  <header class="border max-w-[85%] mx-auto rounded-3xl mb-4 relative bg-[#F3F4F6]">
     <div class="max-w-full mx-auto p-4">
       <div class="flex items-center justify-between min-h-16">
         <a href="/" class="text-xl font-bold"><img class="max-w-[70px]" src="images/logo/logo1.png" alt="Shaligram Developers Logo"></a>
@@ -152,7 +157,7 @@
 
     <!-- Contact Section -->
     <!-- Career Section -->
-<section class="py-16 bg-[#f5f5f5]">
+<section class="py-16 bg-[#f5f5f5]  container-box">
     <div class="max-w-6xl mx-auto px-6">
       
       <div class="grid md:grid-cols-2 gap-10 items-center bg-white shadow-md pl-8 pr-8 pt-8 pb-0">
@@ -210,69 +215,102 @@
   </main>
 
   <!-- Footer -->
-  <div class="max-w-6xl mx-auto px-6 pb-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+  <footer class="bg-[#003366] text-white mt-20  ">
 
-    <!-- About -->
-    <div>
-        <img src="images/logo/logo1.png" alt="Abhinav Homes" class="h-16 mb-6">
-
-        <p class="text-gray-300 leading-8 text-[14px] font-normal">
-            We are leading property developers & real estate Builders in Bhopal offering commercial &
-            residential properties. Your home is the one place that takes all your stress away and fills
-            you with a wonderful sense of belonging.
-        </p>
-    </div>
-
-    <!-- Company -->
-    <div>
-        <h3 class="text-lg mb-6 mt-10">Company</h3>
-
-        <ul class="space-y-4 text-gray-300 text-[14px] font-normal">
-            <li><a href="about.html" class="hover:text-white">About Us</a></li>
-            <li><a href="#" class="hover:text-white">Vision & Mission</a></li>
-            <li><a href="projects.html" class="hover:text-white">All Projects</a></li>
-            <li><a href="blog.html" class="hover:text-white">News & Blogs</a></li>
-            <li><a href="connect-us.html" class="hover:text-white">Contact us</a></li>
-        </ul>
-    </div>
-
-    <!-- Projects -->
-    <div>
-        <h3 class="text-lg  mb-6 mt-10">Projects</h3>
-
-        <ul class="space-y-4 text-gray-300 text-[14px] font-normal">
-            <li><a href="#" class="hover:text-white">Balaji Parisar II</a></li>
-            <li><a href="#" class="hover:text-white">Abhinav AadharCity</a></li>
-            <li><a href="#" class="hover:text-white">Balaji Parisar</a></li>
-            <li><a href="#" class="hover:text-white">Tirupati Abhinav</a></li>
-        </ul>
-    </div>
-
-    <!-- Contact -->
-    <div>
-        <h3 class="text-lg mb-6 mt-10">Contact Info</h3>
-
-        <div class="space-y-6 text-gray-300 text-[14px] leading-8 font-normal">
-
-            <p>
-                <i class="fas fa-map-marker-alt mr-3 text-white"></i>
-                Plot No-77, Abhinav Shopping Complex, Near Queen Marry School, Bhopal, Madhya Pradesh 462022
-            </p>
-
-            <p>
-                <i class="fas fa-phone-alt mr-3 text-white"></i>
-                +91 9302156825
-            </p>
-
-            <p>
-                <i class="fas fa-envelope mr-3 text-white"></i>
-                abhinavhome@yahoo.co.in
-            </p>
-
+    <!-- Top CTA Box -->
+    <div class="max-w-6xl mx-auto px-6 relative -top-10  ">
+        <div class="bg-[#008ed0] rounded-sm px-8 py-10    rounded-lg  flex flex-col md:flex-row justify-between items-center gap-8">
+  
+            <!-- Left Text -->
+            <div>
+                <h2 class="text-[14px] md:text-4xl  mb-3">
+                    Get in touch for more details.
+                </h2>
+                <p class="text-[14px] text-gray-200 font-normal">
+                    We can help you realize your dream of a new home
+                </p>
+            </div>
+  
+            <!-- Social Icons -->
+            <div class="flex gap-6 text-2xl font-medium">
+                <a href="#" class="hover:text-blue-300 transition"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="hover:text-pink-300 transition"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="hover:text-blue-200 transition"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="hover:text-blue-400 transition"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="hover:text-red-400 transition"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="hover:text-green-400 transition"><i class="fab fa-whatsapp"></i></a>
+            </div>
+  
         </div>
     </div>
-
-</div>
+  
+    <!-- Main Footer -->
+    <div class="max-w-6xl mx-auto px-6 pb-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+  
+        <!-- About -->
+        <div>
+            <img src="images/logo/logo1.png" alt="Abhinav Homes" class="h-16 mb-6">
+  
+            <p class="text-gray-300 leading-8 text-[14px] font-normal">
+                We are leading property developers & real estate Builders in Bhopal offering commercial &
+                residential properties. Your home is the one place that takes all your stress away and fills
+                you with a wonderful sense of belonging.
+            </p>
+        </div>
+  
+        <!-- Company -->
+        <div>
+            <h3 class="text-lg mb-6 mt-10">Company</h3>
+  
+            <ul class="space-y-4 text-gray-300 text-[14px] font-normal">
+                <li><a href="about.html" class="hover:text-white">About Us</a></li>
+                <li><a href="#" class="hover:text-white">Vision & Mission</a></li>
+                <li><a href="projects.html" class="hover:text-white">All Projects</a></li>
+                <li><a href="blog.html" class="hover:text-white">News & Blogs</a></li>
+                <li><a href="connect-us.html" class="hover:text-white">Contact us</a></li>
+            </ul>
+        </div>
+  
+        <!-- Projects -->
+        <div>
+            <h3 class="text-lg  mb-6 mt-10">Projects</h3>
+  
+            <ul class="space-y-4 text-gray-300 text-[14px] font-normal">
+                <li><a href="#" class="hover:text-white">Balaji Parisar II</a></li>
+                <li><a href="#" class="hover:text-white">Abhinav AadharCity</a></li>
+                <li><a href="#" class="hover:text-white">Balaji Parisar</a></li>
+                <li><a href="#" class="hover:text-white">Tirupati Abhinav</a></li>
+            </ul>
+        </div>
+  
+        <!-- Contact -->
+        <div>
+            <h3 class="text-lg mb-6 mt-10">Contact Info</h3>
+  
+            <div class="space-y-6 text-gray-300 text-[14px] leading-8 font-normal">
+  
+                <p>
+                    <i class="fas fa-map-marker-alt mr-3 text-white"></i>
+                    Plot No-77, Abhinav Shopping Complex, Near Queen Marry School, Bhopal, Madhya Pradesh 462022
+                </p>
+  
+                <p>
+                    <i class="fas fa-phone-alt mr-3 text-white"></i>
+                    +91 9302156825
+                </p>
+  
+                <p>
+                    <i class="fas fa-envelope mr-3 text-white"></i>
+                    abhinavhome@yahoo.co.in
+                </p>
+  
+            </div>
+        </div>
+  
+    </div>
+  
+  </footer>
+  
 
   <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/gsap.min.js"></script>
