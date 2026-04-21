@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <!-- AOS CSS -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
+ 
   <style>
     .swiper-paginationone .swiper-pagination-bullet {
       background: #F07C00;
@@ -36,6 +36,9 @@
     .animate-float-shape {
       animation: floatShape 8s ease-in-out infinite;
     }
+
+   
+
   </style>
 </head>
 <body class="bg-gray-100 text-gray-900">
@@ -50,87 +53,79 @@
     <div><p class="font-medium"><i class="fa-solid fa-envelope text-white"></i> abhinavhome@yahoo.co.in</p></div>
   </div> 
  <!-- Header / Navigation -->
-<header class="border max-w-[95%] mx-auto rounded-3xl mb-4 relative bg-white">
-  <div class="max-w-full mx-auto p-4">
-    <div class="flex items-center justify-between min-h-16">
+  <header class="border max-w-[95%] mx-auto rounded-3xl mb-4 relative bg-[#F3F4F6]">
+    <div class="max-w-full mx-auto p-4">
+      <div class="flex items-center justify-between min-h-16">
+        <a href="/" class="text-xl font-bold"><img class="max-w-[70px]" src="images/logo/logo1.png" alt="Shaligram Developers Logo"></a>
+        <nav class="hidden md:flex">
+          <ul class="flex items-center gap-6 text-sm font-medium">
+            <li><a href="index.html" class="hover:text-[#003366]">Home</a></li>
+            <li><a href="about.html" class="hover:text-[#003366]">About</a></li>
+            <li class="relative group">
 
-      <!-- Logo -->
-      <a href="index.html" class="text-xl font-bold">
-        <img class="max-w-[70px]" src="images/logo/logo1.png" alt="Logo">
-      </a>
-
-      <!-- Desktop Menu -->
-      <nav class="hidden md:flex">
-        <ul class="flex items-center gap-8 text-sm font-medium">
-
-          <li><a href="index.html" class="hover:text-[#003366] transition">Home</a></li>
-
-          <li><a href="about.html" class="hover:text-[#003366] transition">About</a></li>
-
-          <!-- Project Dropdown -->
-          <li class="relative group">
-
-            <a href="projects.html" class="hover:text-[#003366] transition flex items-center gap-2">
-              Project
-              <i class="fa-solid fa-angle-down text-xs"></i>
-            </a>
-
-            <!-- Dropdown -->
-            <div class="absolute left-0 top-full pt-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
-
-              <div class="w-64 bg-white shadow-xl border-t-4 border-[#003366] rounded-sm py-2">
-
-                <a href="balaji-phase2.html" class="block px-6 py-3 hover:bg-gray-100 hover:text-[#003366] transition">
-                  Balaji Parisar Phase II
-                </a>
-
-                <a href="aadharcity.html" class="block px-6 py-3 hover:bg-gray-100 hover:text-[#003366] transition">
-                  Abhinav AadharCity
-                </a>
-
-                <a href="balaji-commercial.html" class="block px-6 py-3 hover:bg-gray-100 hover:text-[#003366] transition">
-                  Balaji Parisar Commercial
-                </a>
-
-                <a href="tirupati.html" class="block px-6 py-3 hover:bg-gray-100 hover:text-[#003366] transition">
-                  Tirupati Abhinav
-                </a>
-
+              <a href="projects.html" class="hover:text-[#003366] transition flex items-center gap-2">
+                Project
+                <i class="fa-solid fa-angle-down text-xs"></i>
+              </a>
+  
+              <!-- Dropdown -->
+              <div class="absolute left-0 top-full pt-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+  
+                <div class="w-64 bg-white shadow-xl border-t-4 border-[#003366] rounded-sm py-2">
+  
+                  <a href="balaji-phase2.html" class="block px-6 py-3 hover:bg-gray-100 hover:text-[#003366] transition">
+                    Balaji Parisar Phase II
+                  </a>
+  
+                  <a href="aadharcity.html" class="block px-6 py-3 hover:bg-gray-100 hover:text-[#003366] transition">
+                    Abhinav AadharCity
+                  </a>
+  
+                  <a href="balaji-commercial.html" class="block px-6 py-3 hover:bg-gray-100 hover:text-[#003366] transition">
+                    Balaji Parisar Commercial
+                  </a>
+  
+                  <a href="tirupati.html" class="block px-6 py-3 hover:bg-gray-100 hover:text-[#003366] transition">
+                    Tirupati Abhinav
+                  </a>
+  
+                </div>
+  
               </div>
-
-            </div>
-
-          </li>
-
-          <li><a href="blog.html" class="hover:text-[#003366] transition">Blog</a></li>
-
-          <li><a href="gallery.html" class="hover:text-[#003366] transition">Gallery</a></li>
-
-          <li><a href="connect-us.html" class="hover:text-[#003366] transition">Career with us</a></li>
-
-          <li><a href="contact.html" class="hover:text-[#003366] transition">Contact</a></li>
-
-        </ul>
-      </nav>
-
-      <!-- Button -->
-      <div class="hidden md:block">
-        <a href="contact.html"
-          class="group flex items-center gap-3 border rounded-3xl p-2 pr-4 transition-all duration-300 hover:border-black">
-
-          <span
-            class="bg-black w-[30px] h-[30px] flex items-center justify-center text-white rounded-full transition-transform duration-300 group-hover:translate-x-2">
-            <i class="fa-solid fa-arrow-right"></i>
-          </span>
-
-          <span class="font-medium">Get In Touch</span>
-
-        </a>
+  
+            </li>
+  
+            <li><a href="blog.html" class="hover:text-[#003366]">Blogs</a></li>
+           
+            <li><a href="gallery.html" class="hover:text-[#003366]">Gallery</a></li>
+            <li><a href="connect-us.html" class="hover:text-[#003366]">Carrier with Us</a></li>
+            <li><a href="contact.html" class="hover:text-[#003366]">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="hidden md:block">
+          <a href="tel:+919669690032" class="group flex items-center gap-3 border rounded-3xl p-2 pr-4 transition-all duration-300 hover:border-black">
+            <span class="bg-black w-[30px] h-[30px] flex items-center justify-center text-white rounded-full transition-transform duration-300 group-hover:translate-x-2"><i class="fa-solid fa-arrow-right"></i></span>
+            <span class="font-medium">Get In Touch</span>
+          </a>
+        </div>
+        <button id="menuBtn" class="md:hidden text-2xl"><i id="menuIcon" class="fa-solid fa-bars"></i></button>
       </div>
-
     </div>
-  </div>
-</header>
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="fixed top-0 right-0 h-full w-full bg-white/80 backdrop-blur-xl p-8 shadow-2xl transform translate-x-full transition-all duration-500 z-50">
+      <div class="flex items-center justify-between mb-10"><a href="index.html"><img class="max-w-[70px]" src="https://www.shaligramdeveloper.com/./assetsfrontend/logo/footer-logo.png" alt=""></a><button id="closeMenu" class="text-2xl"><i class="fa-solid fa-xmark"></i></button></div>
+      <ul class="flex flex-col gap-8 text-lg font-semibold">
+        <li class="group"><a href="/" class="flex items-center gap-4 transition hover:text-yellow-500"><i class="fa-solid fa-house text-xl"></i><span class="relative">Home<span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-yellow-500 transition-all group-hover:w-full"></span></span></a></li>
+        <li class="group"><a href="https://www.shaligramdeveloper.com/about" class="flex items-center gap-4 hover:text-yellow-500"><i class="fa-solid fa-user text-xl"></i><span class="relative">About<span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-yellow-500 transition-all group-hover:w-full"></span></span></a></li>
+        <li class="group"><a href="https://www.shaligramdeveloper.com/projects" class="flex items-center gap-4 hover:text-yellow-500"><i class="fa-solid fa-diagram-project text-xl"></i><span class="relative">Projects<span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-yellow-500 transition-all group-hover:w-full"></span></span></a></li>
+        <li class="group"><a href="https://www.shaligramdeveloper.com/blogs" class="flex items-center gap-4 hover:text-yellow-500"><i class="fa-solid fa-blog text-xl"></i><span class="relative">Blogs<span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-yellow-500 transition-all group-hover:w-full"></span></span></a></li>
+        <li class="group"><a href="https://www.shaligramdeveloper.com/contact" class="flex items-center gap-4 hover:text-yellow-500"><i class="fa-solid fa-envelope text-xl"></i><span class="relative">Contact<span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-yellow-500 transition-all group-hover:w-full"></span></span></a></li>
+      </ul>
+      <div class="absolute bottom-10 left-8 right-8"><a href="tel:info@shaligramdeveloper.com" class="flex items-center justify-center gap-3 bg-black text-white py-3 rounded-full hover:bg-yellow-500 transition"><i class="fa-solid fa-paper-plane"></i>Get In Touch</a></div>
+    </div>
+    <div id="overlay" class="fixed inset-0 bg-black bg-opacity-40 hidden z-40"></div>
+  </header>
+
 
   <main>
     <!-- Hero Breadcrumb Section -->
@@ -140,7 +135,7 @@
         <img class="absolute inset-0 w-full h-full object-cover" src="https://www.shaligramdeveloper.com/./assetsfrontend/images/bg.jpg" alt="bg">
         <div class="absolute inset-0 bg-[#003366]/80"></div>
         <div class="relative z-10 max-w-7xl mx-auto px-6 py-20">
-          <div class="flex justify-between items-center flex-wrap gap-4">
+          <div class="flex justify-between items-center flex-wrap gap-4 ml-10">
             <div><span class="uppercase text-xs tracking-widest text-yellow-300">✦ Our Projects</span><h2 class="text-4xl font-bold text-gray-100 leading-tight mb-6 animate-text">Landmarks We’ve Created</h2></div>
             <div class="hidden md:flex"><a href="https://www.shaligramdeveloper.com/projects" class="group flex items-center gap-3 border rounded-3xl p-2 pr-4 text-white hover:border-white"><span class="bg-white w-[30px] h-[30px] flex items-center justify-center text-black rounded-full transition-transform duration-300 group-hover:translate-x-2"><i class="fa-solid fa-arrow-right"></i></span><span class="font-medium text-white">View Projects</span></a></div>
           </div>
@@ -152,6 +147,68 @@
                 <div class="mt-6 flex items-center text-sm font-bold text-[#F07C00] group/btn"><span>View Project</span><svg class="w-4 h-4 ml-2 transform group-hover:-rotate-45 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg></div>
               </div>
             </a> -->
+            <div class="md:col-span-2 lg:col-span-2 group relative flex flex-col bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500" data-aos="fade-up" data-aos-delay="100">
+
+              <!-- Main Project Image -->
+              <div class="relative w-full overflow-hidden bg-gray-50">
+                  <img 
+                      src="images/banners/commercial-CN8qqj1y.jpg" 
+                      alt="Balaji Parisar I"
+                      class="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-110"
+                  >
+              </div>
+          
+              <!-- Content -->
+              <div class="relative flex flex-col p-6 md:p-8">
+          
+                  <!-- Background Watermark -->
+                  <img 
+                      src="https://www.shaligramdeveloper.com/assetsadmin/uploads/projects/1773395089_svg_69b3dc916da9f.svg"
+                      class="absolute bottom-0 right-0 w-1/4 opacity-[0.06]"
+                      alt=""
+                  >
+          
+                  <!-- Category -->
+             
+          
+                  <!-- Logo + Title in Same Line -->
+                  <div class="flex items-center justify-between gap-4">
+
+                    <!-- Left Side Logo + Title -->
+                    <div class="flex items-center gap-4">
+                        <img 
+                            src="images/logo/balajiparisar.png"
+                            alt="Balaji Parisar Logo"
+                            class="h-20 w-auto object-contain shrink-0"
+                        >
+                
+                        <h3 class="text-xl md:text-2xl font-semibold transition-colors duration-300 group-hover:text-[#003366]">
+                            Balaji Parisar |
+                        </h3>
+                    </div>
+                
+                    <!-- Right Side Badge -->
+                    <span class="text-sm font-bold uppercase px-3 py-2 bg-slate-100 text-slate-600 rounded-full whitespace-nowrap">
+                        Independent Homes
+                    </span>
+                
+                </div>
+          
+                  <!-- Description -->
+                  <p class="mt-4 text-gray-600 text-sm leading-6 line-clamp-3">
+                      Balaji Parisar is a beautifully designed housing campus full of facilities and conveniences. Duplexes here are exquisitely designed with spacious layouts for modern family living.
+                  </p>
+          
+                  <!-- Button -->
+                  <div class="mt-6">
+                      <a href="#" class="inline-block px-5 py-2 text-sm font-semibold text-white bg-[#003366] rounded-lg hover:bg-[#002244] transition-all duration-300">
+                          View Project
+                      </a>
+                  </div>
+          
+              </div>
+          
+          </div>
             <div class="md:col-span-2 lg:col-span-2 group relative flex flex-col bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500" data-aos="fade-up" data-aos-delay="100">
 
               <!-- Main Project Image -->
@@ -174,23 +231,30 @@
                   >
           
                   <!-- Category -->
-                  <span class="text-sm font-bold uppercase px-3 py-1 bg-slate-100 text-slate-600 rounded-full w-fit mb-5">
-                      Independent Homes
-                  </span>
+                  
           
                   <!-- Logo + Title in Same Line -->
-                  <div class="flex items-center gap-4">
-          
-                      <img 
-                          src="images/logo/balajiparisar.png"
-                          alt="Balaji Parisar Logo"
-                          class="h-14 w-auto object-contain shrink-0"
-                      >
-          
-                      <h3 class="text-xl md:text-2xl font-semibold transition-colors duration-300 group-hover:text-[#003366]">
-                          Balaji Parisar II
-                      </h3>
-          
+                     <!-- Logo + Title in Same Line -->
+                     <div class="flex items-center justify-between gap-4">
+
+                      <!-- Left Side Logo + Title -->
+                      <div class="flex items-center gap-4">
+                          <img 
+                              src="images/logo/balajiparisar.png"
+                              alt="Balaji Parisar Logo"
+                              class="h-20 w-auto object-contain shrink-0"
+                          >
+                  
+                          <h3 class="text-xl md:text-2xl font-semibold transition-colors duration-300 group-hover:text-[#003366]">
+                              Balaji Parisar ||
+                          </h3>
+                      </div>
+                  
+                      <!-- Right Side Badge -->
+                      <span class="text-sm font-bold uppercase px-3 py-2 bg-slate-100 text-slate-600 rounded-full whitespace-nowrap">
+                          Independent Homes
+                      </span>
+                  
                   </div>
           
                   <!-- Description -->
@@ -230,25 +294,32 @@
                     alt=""
                 >
         
-                <!-- Category -->
-                <span class="text-sm font-bold uppercase px-3 py-1 bg-slate-100 text-slate-600 rounded-full w-fit mb-5">
-                    Independent Homes
-                </span>
+               
+           
         
                 <!-- Logo + Title in Same Line -->
-                <div class="flex items-center gap-4">
-        
-                    <img 
-                        src="images/logo/aadharlogo.png"
-                        alt="Balaji Parisar Logo"
-                        class="h-14 w-auto object-contain shrink-0"
-                    >
-        
-                    <h3 class="text-xl md:text-2xl font-semibold transition-colors duration-300 group-hover:text-[#003366]">
-                         AadharCity
-                    </h3>
-        
-                </div>
+                   <!-- Logo + Title in Same Line -->
+                   <div class="flex items-center justify-between gap-4">
+
+                    <!-- Left Side Logo + Title -->
+                    <div class="flex items-center gap-4">
+                        <img 
+                            src="images/logo/aadharlogo.png"
+                            alt="Balaji Parisar Logo"
+                            class="h-20 w-auto object-contain shrink-0"
+                        >
+                
+                        <h3 class="text-xl md:text-2xl font-semibold transition-colors duration-300 group-hover:text-[#003366]">
+                            AadharCity
+                        </h3>
+                    </div>
+                
+                    <!-- Right Side Badge -->
+                    <span class="text-sm font-bold uppercase px-3 py-2 bg-slate-100 text-slate-600 rounded-full whitespace-nowrap">
+                        Independent Homes
+                    </span>
+                
+                </div>  
         
                 <!-- Description -->
                 <p class="mt-4 text-gray-600 text-sm leading-6 line-clamp-3">
@@ -265,68 +336,13 @@
             </div>
         
         </div>
-        <div class="md:col-span-2 lg:col-span-2 group relative flex flex-col bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500" data-aos="fade-up" data-aos-delay="100">
-
-          <!-- Main Project Image -->
-          <div class="relative w-full overflow-hidden bg-gray-50">
-              <img 
-                  src="images/banners/commercial-CN8qqj1y.jpg" 
-                  alt="Balaji Parisar II"
-                  class="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-110"
-              >
-          </div>
-      
-          <!-- Content -->
-          <div class="relative flex flex-col p-6 md:p-8">
-      
-              <!-- Background Watermark -->
-              <img 
-                  src="https://www.shaligramdeveloper.com/assetsadmin/uploads/projects/1773395089_svg_69b3dc916da9f.svg"
-                  class="absolute bottom-0 right-0 w-1/4 opacity-[0.06]"
-                  alt=""
-              >
-      
-              <!-- Category -->
-              <span class="text-sm font-bold uppercase px-3 py-1 bg-slate-100 text-slate-600 rounded-full w-fit mb-5">
-                  Independent Homes
-              </span>
-      
-              <!-- Logo + Title in Same Line -->
-              <div class="flex items-center gap-4">
-      
-                  <img 
-                      src="images/logo/balajiparisar.png"
-                      alt="Balaji Parisar Logo"
-                      class="h-14 w-auto object-contain shrink-0"
-                  >
-      
-                  <h3 class="text-xl md:text-2xl font-semibold transition-colors duration-300 group-hover:text-[#003366]">
-                      Balaji Parisar
-                  </h3>
-      
-              </div>
-      
-              <!-- Description -->
-              <p class="mt-4 text-gray-600 text-sm leading-6 line-clamp-3">
-                  Balaji Parisar is a beautifully designed housing campus full of facilities and conveniences. Duplexes here are exquisitely designed with spacious layouts for modern family living.
-              </p>
-      
-              <!-- Button -->
-              <div class="mt-6">
-                  <a href="#" class="inline-block px-5 py-2 text-sm font-semibold text-white bg-[#003366] rounded-lg hover:bg-[#002244] transition-all duration-300">
-                      View Project
-                  </a>
-              </div>
-      
-          </div>
-      
-      </div>
+       
       <div class="md:col-span-2 lg:col-span-2 group relative flex flex-col bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500" data-aos="fade-up" data-aos-delay="100">
 
         <!-- Main Project Image -->
         <div class="relative w-full overflow-hidden bg-gray-50">
             <img 
-                src="images/banners/titupati-flats-yPJTzE-t.jpg" 
+                src="images/banners/titupati-flats-yPJTzE-t.jpg " 
                 alt="Balaji Parisar II"
                 class="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-110"
             >
@@ -343,26 +359,34 @@
             >
     
             <!-- Category -->
-            <span class="text-sm font-bold uppercase px-3 py-1 bg-slate-100 text-slate-600 rounded-full w-fit mb-5">
-              Apartments
-
-            </span>
+           
     
             <!-- Logo + Title in Same Line -->
-            <div class="flex items-center gap-4">
-    
-                <img 
-                    src="images/logo/tirupati-abhinav.png"
-                    alt="Balaji Parisar Logo"
-                    class="h-14 w-auto object-contain shrink-0"
-                >
-    
-                <h3 class="text-xl md:text-2xl font-semibold transition-colors duration-300 group-hover:text-[#003366]">
-                  Tirupati Abhinav
-                </h3>
-    
-            </div>
-    
+     
+
+                    <!-- Left Side Logo + Title -->
+                    <div class="flex items-center justify-between gap-4">
+
+                      <!-- Left side -->
+                      <div class="flex items-center gap-4 min-w-0">
+                          <img 
+                              src="images/logo/tirupati-abhinav.png"
+                              alt="Tirupati Logo"
+                              class="h-20 w-auto object-contain shrink-0"
+                          >
+                  
+                          <h3 class="text-xl md:text-2xl font-semibold whitespace-nowrap   ">
+                              Tirupati Homes
+                          </h3>
+                      </div>
+                  
+                      <!-- Right badge -->
+                      <span class="text-sm font-bold uppercase px-3 py-2 bg-slate-100 text-slate-600 rounded-full whitespace-nowrap shrink-0">
+                          Commercial (Shops/Office)
+                      </span>
+                  
+                  </div>
+     
             <!-- Description -->
             <p class="mt-4 text-gray-600 text-sm leading-6 line-clamp-3">
               A residential campus of 450 ultra luxury very beautiful and extremely spacious duplex & bungalows with all ultra modern amenities at Ayodhya Bypass road Bhopal.
@@ -381,7 +405,7 @@
           </div>
         </div>
       </div>
-    </section> 
+    </section>
     
     <!-- Projects Showcase -->
  
@@ -389,7 +413,7 @@
   </main>
 
   <!-- Footer -->
-  <footer class="bg-[#0b1026] text-white mt-20">
+  <footer class="bg-[#0b1026] text-white mt-20 font-['Poppins']">
 
     <!-- Top CTA Box -->
     <div class="max-w-6xl mx-auto px-6 relative -top-10">
@@ -397,16 +421,16 @@
   
             <!-- Left Text -->
             <div>
-                <h2 class="text-3xl md:text-4xl font-semibold mb-3">
+                <h2 class="text-3xl md:text-4xl  mb-3">
                     Get in touch for more details.
                 </h2>
-                <p class="text-lg text-gray-200">
+                <p class="text-lg text-gray-200 font-normal">
                     We can help you realize your dream of a new home
                 </p>
             </div>
   
             <!-- Social Icons -->
-            <div class="flex gap-6 text-2xl">
+            <div class="flex gap-6 text-2xl font-medium">
                 <a href="#" class="hover:text-blue-300 transition"><i class="fab fa-facebook-f"></i></a>
                 <a href="#" class="hover:text-pink-300 transition"><i class="fab fa-instagram"></i></a>
                 <a href="#" class="hover:text-blue-200 transition"><i class="fab fa-twitter"></i></a>
@@ -425,7 +449,7 @@
         <div>
             <img src="images/logo/logo1.png" alt="Abhinav Homes" class="h-16 mb-6">
   
-            <p class="text-gray-300 leading-8 text-[17px]">
+            <p class="text-gray-300 leading-8 text-[17px] font-normal">
                 We are leading property developers & real estate Builders in Bhopal offering commercial &
                 residential properties. Your home is the one place that takes all your stress away and fills
                 you with a wonderful sense of belonging.
@@ -434,22 +458,22 @@
   
         <!-- Company -->
         <div>
-            <h3 class="text-3xl font-semibold mb-6">Company</h3>
+            <h3 class="text-2xl mb-6 mt-10">Company</h3>
   
-            <ul class="space-y-4 text-gray-300 text-lg">
-                <li><a href="#" class="hover:text-white">About Us</a></li>
+            <ul class="space-y-4 text-gray-300 text-lg font-normal">
+                <li><a href="about.html" class="hover:text-white">About Us</a></li>
                 <li><a href="#" class="hover:text-white">Vision & Mission</a></li>
-                <li><a href="#" class="hover:text-white">All Projects</a></li>
-                <li><a href="#" class="hover:text-white">News & Blogs</a></li>
-                <li><a href="#" class="hover:text-white">Contact us</a></li>
+                <li><a href="projects.html" class="hover:text-white">All Projects</a></li>
+                <li><a href="blog.html" class="hover:text-white">News & Blogs</a></li>
+                <li><a href="connect-us.html" class="hover:text-white">Contact us</a></li>
             </ul>
         </div>
   
         <!-- Projects -->
         <div>
-            <h3 class="text-3xl font-semibold mb-6">Projects</h3>
+            <h3 class="text-2xl  mb-6 mt-10">Projects</h3>
   
-            <ul class="space-y-4 text-gray-300 text-lg">
+            <ul class="space-y-4 text-gray-300 text-lg font-normal">
                 <li><a href="#" class="hover:text-white">Balaji Parisar II</a></li>
                 <li><a href="#" class="hover:text-white">Abhinav AadharCity</a></li>
                 <li><a href="#" class="hover:text-white">Balaji Parisar</a></li>
@@ -459,9 +483,9 @@
   
         <!-- Contact -->
         <div>
-            <h3 class="text-3xl font-semibold mb-6">Contact Info</h3>
+            <h3 class="text-2xl  mb-6 mt-10">Contact Info</h3>
   
-            <div class="space-y-6 text-gray-300 text-lg leading-8">
+            <div class="space-y-6 text-gray-300 text-lg leading-8 font-normal">
   
                 <p>
                     <i class="fas fa-map-marker-alt mr-3 text-white"></i>
@@ -470,12 +494,12 @@
   
                 <p>
                     <i class="fas fa-phone-alt mr-3 text-white"></i>
-                    +91 9303132113 , 9302156825
+                    +91 9302156825
                 </p>
   
                 <p>
                     <i class="fas fa-envelope mr-3 text-white"></i>
-                    example@example.com
+                    abhinavhome@yahoo.co.in
                 </p>
   
             </div>
@@ -484,7 +508,6 @@
     </div>
   
   </footer>
-  
 
   <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/gsap.min.js"></script>
