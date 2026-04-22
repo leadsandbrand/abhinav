@@ -107,7 +107,7 @@ body{
   <a href="https://wa.me/9669690018" target="_blank" class="fixed bottom-5 md:right-14 right-5 z-50 flex items-center justify-center w-14 h-14 bg-green-500 hover:bg-green-600 text-white rounded-full shadow-lg transition duration-300"><i class="fab fa-whatsapp text-2xl"></i></a>
   
   <!-- Header / Navigation -->
-  <header class="border max-w-[83%] mx-auto rounded-3xl mb-4 relative bg-[#F3F4F6]">
+  <header class="border container-box rounded-3xl mb-4 relative bg-[#F3F4F6]">
     <div class="max-w-full mx-auto p-4">
       <div class="flex items-center justify-between min-h-16">
         <a href="/" class="text-xl font-bold"><img class="max-w-[70px]" src="images/logo/logo1.png" alt="Shaligram Developers Logo"></a>
@@ -166,19 +166,96 @@ body{
       </div>
     </div>
     <!-- Mobile Menu -->
-    <div id="mobileMenu" class="fixed top-0 right-0 h-full w-full bg-white/80 backdrop-blur-xl p-8 shadow-2xl transform translate-x-full transition-all duration-500 z-50">
-      <div class="flex items-center justify-between mb-10"><a href="index.html"><img class="max-w-[70px]" src="https://www.shaligramdeveloper.com/./assetsfrontend/logo/footer-logo.png" alt=""></a><button id="closeMenu" class="text-2xl"><i class="fa-solid fa-xmark"></i></button></div>
-      <ul class="flex flex-col gap-8 text-lg font-semibold">
-        <li class="group"><a href="/" class="flex items-center gap-4 transition hover:text-yellow-500"><i class="fa-solid fa-house text-xl"></i><span class="relative">Home<span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-yellow-500 transition-all group-hover:w-full"></span></span></a></li>
-        <li class="group"><a href="https://www.shaligramdeveloper.com/about" class="flex items-center gap-4 hover:text-yellow-500"><i class="fa-solid fa-user text-xl"></i><span class="relative">About<span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-yellow-500 transition-all group-hover:w-full"></span></span></a></li>
-        <li class="group"><a href="https://www.shaligramdeveloper.com/projects" class="flex items-center gap-4 hover:text-yellow-500"><i class="fa-solid fa-diagram-project text-xl"></i><span class="relative">Projects<span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-yellow-500 transition-all group-hover:w-full"></span></span></a></li>
-        <li class="group"><a href="https://www.shaligramdeveloper.com/blogs" class="flex items-center gap-4 hover:text-yellow-500"><i class="fa-solid fa-blog text-xl"></i><span class="relative">Blogs<span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-yellow-500 transition-all group-hover:w-full"></span></span></a></li>
-        <li class="group"><a href="https://www.shaligramdeveloper.com/contact" class="flex items-center gap-4 hover:text-yellow-500"><i class="fa-solid fa-envelope text-xl"></i><span class="relative">Contact<span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-yellow-500 transition-all group-hover:w-full"></span></span></a></li>
-      </ul>
-      <div class="absolute bottom-10 left-8 right-8"><a href="tel:info@shaligramdeveloper.com" class="flex items-center justify-center gap-3 bg-black text-white py-3 rounded-full hover:bg-yellow-500 transition"><i class="fa-solid fa-paper-plane"></i>Get In Touch</a></div>
-    </div>
+  <!-- Mobile Menu -->
+<div id="mobileMenu" class="fixed top-0 right-0 h-full w-full bg-white/80 backdrop-blur-xl p-8 shadow-2xl transform translate-x-full transition-all duration-500 z-50">
+
+  <div class="flex items-center justify-between mb-10">
+    <a href="index.html">
+      <img class="max-w-[70px]" src="images/logo/logo1.png" alt="">
+    </a>
+
+    <button id="closeMenu" class="text-2xl">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+  </div>
+
+  <ul class="flex flex-col gap-6 text-lg font-semibold">
+
+    <li>
+      <a href="index.html" class="flex items-center gap-4 hover:text-[#003366]">
+        <i class="fa-solid fa-house text-xl"></i> Home
+      </a>
+    </li>
+
+    <li>
+      <a href="about.html" class="flex items-center gap-4 hover:text-[#003366]">
+        <i class="fa-solid fa-user text-xl"></i> About
+      </a>
+    </li>
+
+    <li>
+      <a href="projects.html" class="flex items-center gap-4 hover:text-yellow-[#003366]">
+        <i class="fa-solid fa-diagram-project text-xl"></i> Projects
+      </a>
+    </li>
+
+    <!-- Project Sub Menu -->
+    <li class="ml-8 text-base space-y-3 text-gray-700">
+
+      <a href="balaji-phase2.html" class="block hover:text-[#003366]">
+        • Balaji Parisar Phase II
+      </a>
+
+      <a href="aadharcity.html" class="block hover:text-[#003366]">
+        • Abhinav AadharCity
+      </a>
+
+      <a href="balaji-commercial.html" class="block hover:text-[#003366]">
+        • Balaji Parisar Commercial
+      </a>
+
+      <a href="tirupati.html" class="block hover:text-[#003366]">
+        • Tirupati Abhinav
+      </a>
+
+    </li>
+
+    <li>
+      <a href="blog.html" class="flex items-center gap-4 hover:text-[#003366]">
+        <i class="fa-solid fa-blog text-xl"></i> Blogs
+      </a>
+    </li>
+
+    <li>
+      <a href="gallery.html" class="flex items-center gap-4 hover:text-[#003366]">
+        <i class="fa-solid fa-image text-xl"></i> Gallery
+      </a>
+    </li>
+
+    <li>
+      <a href="connect-us.html" class="flex items-center gap-4 hover:text-[#003366]">
+        <i class="fa-solid fa-briefcase text-xl"></i> Carrier with Us
+      </a>
+    </li>
+
+    <li>
+      <a href="contact.html" class="flex items-center gap-4 hover:text-[#003366]">
+        <i class="fa-solid fa-envelope text-xl"></i> Contact
+      </a>
+    </li>
+
+  </ul>
+
+  <div class="absolute bottom-10 left-8 right-8">
+    <a href="tel:+919669690032" class="flex items-center justify-center gap-3 bg-black text-white py-3 rounded-full hover:bg-yellow-500 transition">
+      <i class="fa-solid fa-paper-plane"></i> Get In Touch
+    </a>
+  </div>
+
+</div>
     <div id="overlay" class="fixed inset-0 bg-black bg-opacity-40 hidden z-40"></div>
   </header>
+
 
   <main >
     <!-- Hero Section -->
@@ -205,16 +282,16 @@ body{
       <div class="max-w-7xl mx-auto px-4">
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3">
           <div class="group relative flex flex-col md:flex-row items-center justify-center gap-4 p-6 bg-gray-50 rounded-lg hover:bg-[#003366] transition-all duration-300 cursor-pointer text-center md:text-left" data-aos="fade-up">
-            <div class="bg-white w-[60px] h-[60px] rounded-full flex items-center justify-center shadow"><img src="images/icons/chair-CV3ZsnTJ.png" alt="Experience" class="w-7 h-7"></div><div><h3 class="text-lg font-semibold text-gray-800 group-hover:text-white">18+ Years of Experience</h3></div>
+            <div class="bg-white w-[60px] h-[60px] rounded-full flex items-center justify-center shadow"><img src="images/icons/chair-CV3ZsnTJ.png" alt="Experience" class="w-7 h-7"></div><div><h3 class="text-lg font-semibold text-gray-800 group-hover:text-white">2000+ customer</h3></div>
           </div>
           <div class="group relative flex flex-col md:flex-row items-center justify-center gap-4 p-6 bg-gray-50 rounded-lg hover:bg-[#003366]  transition-all duration-300" data-aos="fade-up" data-aos-delay="150">
-            <div class="bg-white w-[60px] h-[60px] rounded-full flex items-center justify-center shadow"><img src="images/icons/closure-CqVT0Xb8.png" alt="Families"></div><div><h3 class="text-lg font-semibold text-gray-800 group-hover:text-white">348+ Happy Families</h3></div>
+            <div class="bg-white w-[60px] h-[60px] rounded-full flex items-center justify-center shadow"><img src="images/icons/closure-CqVT0Xb8.png" alt="Families"></div><div><h3 class="text-lg font-semibold text-gray-800 group-hover:text-white">30+ project</h3></div>
           </div>
           <div class="group relative flex flex-col md:flex-row items-center justify-center gap-4 p-6 bg-gray-50 rounded-lg hover:bg-[#003366] transition-all duration-300" data-aos="fade-up" data-aos-delay="300">
-            <div class="bg-white w-[60px] h-[60px] rounded-full flex items-center justify-center shadow"><img src="images/icons/excavator-DHNIsUKX.png" alt="Acres"></div><div><h3 class="text-lg font-semibold text-gray-800 group-hover:text-white">34 Acres Construction</h3></div>
+            <div class="bg-white w-[60px] h-[60px] rounded-full flex items-center justify-center shadow"><img src="images/icons/excavator-DHNIsUKX.png" alt="Acres"></div><div><h3 class="text-lg font-semibold text-gray-800 group-hover:text-white">1000+ Homes</h3></div>
           </div>
           <div class="group relative flex flex-col md:flex-row items-center justify-center gap-4 p-6 bg-gray-50 rounded-lg hover:bg-[#003366] transition-all duration-300" data-aos="fade-up" data-aos-delay="450">
-            <div class="bg-white w-[60px] h-[60px] rounded-full flex items-center justify-center shadow"><img src="images/icons/skyline-u0ojQea5.png" alt="Quality"></div><div><h3 class="text-lg font-semibold text-gray-800 group-hover:text-white">Commitment to Quality</h3></div>
+            <div class="bg-white w-[60px] h-[60px] rounded-full flex items-center justify-center shadow"><img src="images/icons/skyline-u0ojQea5.png" alt="Quality"></div><div><h3 class="text-lg font-semibold text-gray-800 group-hover:text-white">land development</h3></div>
           </div>
           
           <div class="group relative flex flex-col md:flex-row items-center justify-center gap-4 p-6 bg-gray-50 rounded-lg hover:bg-[#003366] transition-all duration-300" data-aos="fade-up" data-aos-delay="600">

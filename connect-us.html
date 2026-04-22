@@ -63,7 +63,7 @@
   <a href="https://wa.me/9669690018" target="_blank" class="fixed bottom-5 md:right-14 right-5 z-50 flex items-center justify-center w-14 h-14 bg-green-500 hover:bg-green-600 text-white rounded-full shadow-lg transition duration-300"><i class="fab fa-whatsapp text-2xl"></i></a>
   
   <!-- Header / Navigation -->
-  <header class="border max-w-[85%] mx-auto rounded-3xl mb-4 relative bg-[#F3F4F6]">
+  <header class="border container-box rounded-3xl mb-4 relative bg-[#F3F4F6]">
     <div class="max-w-full mx-auto p-4">
       <div class="flex items-center justify-between min-h-16">
         <a href="/" class="text-xl font-bold"><img class="max-w-[70px]" src="images/logo/logo1.png" alt="Shaligram Developers Logo"></a>
@@ -122,19 +122,96 @@
       </div>
     </div>
     <!-- Mobile Menu -->
-    <div id="mobileMenu" class="fixed top-0 right-0 h-full w-full bg-white/80 backdrop-blur-xl p-8 shadow-2xl transform translate-x-full transition-all duration-500 z-50">
-      <div class="flex items-center justify-between mb-10"><a href="index.html"><img class="max-w-[70px]" src="https://www.shaligramdeveloper.com/./assetsfrontend/logo/footer-logo.png" alt=""></a><button id="closeMenu" class="text-2xl"><i class="fa-solid fa-xmark"></i></button></div>
-      <ul class="flex flex-col gap-8 text-lg font-semibold">
-        <li class="group"><a href="/" class="flex items-center gap-4 transition hover:text-yellow-500"><i class="fa-solid fa-house text-xl"></i><span class="relative">Home<span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-yellow-500 transition-all group-hover:w-full"></span></span></a></li>
-        <li class="group"><a href="https://www.shaligramdeveloper.com/about" class="flex items-center gap-4 hover:text-yellow-500"><i class="fa-solid fa-user text-xl"></i><span class="relative">About<span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-yellow-500 transition-all group-hover:w-full"></span></span></a></li>
-        <li class="group"><a href="https://www.shaligramdeveloper.com/projects" class="flex items-center gap-4 hover:text-yellow-500"><i class="fa-solid fa-diagram-project text-xl"></i><span class="relative">Projects<span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-yellow-500 transition-all group-hover:w-full"></span></span></a></li>
-        <li class="group"><a href="https://www.shaligramdeveloper.com/blogs" class="flex items-center gap-4 hover:text-yellow-500"><i class="fa-solid fa-blog text-xl"></i><span class="relative">Blogs<span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-yellow-500 transition-all group-hover:w-full"></span></span></a></li>
-        <li class="group"><a href="https://www.shaligramdeveloper.com/contact" class="flex items-center gap-4 hover:text-yellow-500"><i class="fa-solid fa-envelope text-xl"></i><span class="relative">Contact<span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-yellow-500 transition-all group-hover:w-full"></span></span></a></li>
-      </ul>
-      <div class="absolute bottom-10 left-8 right-8"><a href="tel:info@shaligramdeveloper.com" class="flex items-center justify-center gap-3 bg-black text-white py-3 rounded-full hover:bg-yellow-500 transition"><i class="fa-solid fa-paper-plane"></i>Get In Touch</a></div>
-    </div>
+  <!-- Mobile Menu -->
+<div id="mobileMenu" class="fixed top-0 right-0 h-full w-full bg-white/80 backdrop-blur-xl p-8 shadow-2xl transform translate-x-full transition-all duration-500 z-50">
+
+  <div class="flex items-center justify-between mb-10">
+    <a href="index.html">
+      <img class="max-w-[70px]" src="images/logo/logo1.png" alt="">
+    </a>
+
+    <button id="closeMenu" class="text-2xl">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+  </div>
+
+  <ul class="flex flex-col gap-6 text-lg font-semibold">
+
+    <li>
+      <a href="index.html" class="flex items-center gap-4 hover:text-[#003366]">
+        <i class="fa-solid fa-house text-xl"></i> Home
+      </a>
+    </li>
+
+    <li>
+      <a href="about.html" class="flex items-center gap-4 hover:text-[#003366]">
+        <i class="fa-solid fa-user text-xl"></i> About
+      </a>
+    </li>
+
+    <li>
+      <a href="projects.html" class="flex items-center gap-4 hover:text-yellow-[#003366]">
+        <i class="fa-solid fa-diagram-project text-xl"></i> Projects
+      </a>
+    </li>
+
+    <!-- Project Sub Menu -->
+    <li class="ml-8 text-base space-y-3 text-gray-700">
+
+      <a href="balaji-phase2.html" class="block hover:text-[#003366]">
+        • Balaji Parisar Phase II
+      </a>
+
+      <a href="aadharcity.html" class="block hover:text-[#003366]">
+        • Abhinav AadharCity
+      </a>
+
+      <a href="balaji-commercial.html" class="block hover:text-[#003366]">
+        • Balaji Parisar Commercial
+      </a>
+
+      <a href="tirupati.html" class="block hover:text-[#003366]">
+        • Tirupati Abhinav
+      </a>
+
+    </li>
+
+    <li>
+      <a href="blog.html" class="flex items-center gap-4 hover:text-[#003366]">
+        <i class="fa-solid fa-blog text-xl"></i> Blogs
+      </a>
+    </li>
+
+    <li>
+      <a href="gallery.html" class="flex items-center gap-4 hover:text-[#003366]">
+        <i class="fa-solid fa-image text-xl"></i> Gallery
+      </a>
+    </li>
+
+    <li>
+      <a href="connect-us.html" class="flex items-center gap-4 hover:text-[#003366]">
+        <i class="fa-solid fa-briefcase text-xl"></i> Carrier with Us
+      </a>
+    </li>
+
+    <li>
+      <a href="contact.html" class="flex items-center gap-4 hover:text-[#003366]">
+        <i class="fa-solid fa-envelope text-xl"></i> Contact
+      </a>
+    </li>
+
+  </ul>
+
+  <div class="absolute bottom-10 left-8 right-8">
+    <a href="tel:+919669690032" class="flex items-center justify-center gap-3 bg-black text-white py-3 rounded-full hover:bg-yellow-500 transition">
+      <i class="fa-solid fa-paper-plane"></i> Get In Touch
+    </a>
+  </div>
+
+</div>
     <div id="overlay" class="fixed inset-0 bg-black bg-opacity-40 hidden z-40"></div>
   </header>
+
 
 
 
